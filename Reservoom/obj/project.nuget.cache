@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "x5v5QnIw06mpP9cMDjgl9qaIMHaPy+RwaWT5yu5eWMZMnp3tdqLctXcBKDTjODAvsIuWbDh4zk133dr/n6T8vQ==",
+  "dgSpecHash": "j2UhgXkHQmPGb7vldc2+4I05BaT9oxkdSfzekP1VcZLcK75l90ZF1+zZ8BwaoQ6P2dazWTYt37Co4TXru2vadA==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\Reservoom\\Reservoom\\Reservoom.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\OCan\\.nuget\\packages\\nlog\\5.2.6\\nlog.5.2.6.nupkg.sha512"
+  ],
   "logs": []
 }

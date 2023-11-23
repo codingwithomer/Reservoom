@@ -5,7 +5,24 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v7.0": {}
+    ".NETCoreApp,Version=v7.0": {
+      "NLog/5.2.6": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.2.6.2256"
+          }
+        }
+      }
+    }
   },
-  "libraries": {}
+  "libraries": {
+    "NLog/5.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7/RQ4VBu6HT6kieczhwfI52ugcxrsrMNWIGy43Q36SdfN5dApZW7otsgXuIXx2rKspIGkPhD99JVWIs6FtIilA==",
+      "path": "nlog/5.2.6",
+      "hashPath": "nlog.5.2.6.nupkg.sha512"
+    }
+  }
 }

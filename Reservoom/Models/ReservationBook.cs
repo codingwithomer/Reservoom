@@ -1,6 +1,5 @@
 ﻿using Reservoom.Exceptions;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Reservoom.Models
 {

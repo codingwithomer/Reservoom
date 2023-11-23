@@ -1,5 +1,6 @@
-﻿using Reservoom.Models;
-using System;
+﻿using Reservoom.Commands;
+using Reservoom.Models;
+using Reservoom.Services;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
@@ -8,19 +9,33 @@ namespace Reservoom.ViewModels
 {
     public class ReservationListingViewModel : ViewModelBase
     {
+        private readonly Hotel _hotel;
         private readonly ObservableCollection<ReservationViewModel> _reservations;
 
         public IEnumerable<ReservationViewModel> Reservations => _reservations;
         public ICommand MakeReservationCommand { get; }
 
-        public ReservationListingViewModel()
+        public ReservationListingViewModel(Hotel hotel, NavigationService makeReservationNavigationService)
         {
+            _hotel = hotel;
+
             _reservations = new ObservableCollection<ReservationViewModel>();
 
-            _reservations.Add(new ReservationViewModel(new Reservation(new RoomID(1, 2), "Ömer Bilal Can", new DateTime(2023, 11, 20), new DateTime(2023, 11, 23))));
-            _reservations.Add(new ReservationViewModel(new Reservation(new RoomID(4, 3), "Hakan Kerem Can", new DateTime(2023, 11, 20), new DateTime(2023, 11, 24))));
-            _reservations.Add(new ReservationViewModel(new Reservation(new RoomID(1, 2), "Niymet Kılıç Can", new DateTime(2023, 11, 20), new DateTime(2023, 11, 23))));
-            _reservations.Add(new ReservationViewModel(new Reservation(new RoomID(3, 7), "Şanssu Can", new DateTime(2023, 11, 20), new DateTime(2023, 11, 23))));
+            MakeReservationCommand = new NavigateCommand(makeReservationNavigationService);
+
+            UpdateReservations();
+        }
+
+        private void UpdateReservations()
+        {
+            _reservations.Clear();
+
+            foreach (Reservation reservation in _hotel.GetAllReservations())
+            {
+                ReservationViewModel reservationViewModel = new(reservation);
+
+                _reservations.Add(reservationViewModel);
+            }
         }
     }
 }

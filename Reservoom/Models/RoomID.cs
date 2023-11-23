@@ -37,7 +37,7 @@ namespace Reservoom.Models
                 return true;
             }
 
-            return roomID1 is not null && roomID1.Equals(roomID2);
+            return !(roomID1 is null) && roomID1.Equals(roomID2);
         }
 
         public static bool operator !=(RoomID roomID1, RoomID roomID2)

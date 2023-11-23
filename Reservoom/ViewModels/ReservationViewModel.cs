@@ -8,8 +8,8 @@ namespace Reservoom.ViewModels
 
         public string RoomID => _reservation.RoomID.ToString();
         public string Username => _reservation.Username;
-        public string StartTime => _reservation.StartTime.ToString("dd/MM/yyyy");
-        public string EndTime => _reservation.EndTime.ToString("dd/MM/yyyy");
+        public string StartDate => _reservation.StartDate.ToString("dd/MM/yyyy");
+        public string EndDate => _reservation.EndDate.ToString("dd/MM/yyyy");
 
         public ReservationViewModel(Reservation reservation)
         {
