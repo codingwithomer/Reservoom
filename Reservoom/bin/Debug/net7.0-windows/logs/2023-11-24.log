@@ -1,0 +1,8 @@
+2023-11-24 11:46:52.1920 ERROR The LINQ expression 'DbSet<ReservationDTO>()
+    .Where(r => DatabaseReservationConflictValidator.ToReservation(r).Conflicts(__reservation_0))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2023-11-24 11:49:07.9078 ERROR The LINQ expression 'DbSet<ReservationDTO>()
+    .Where(r => DatabaseReservationConflictValidator.ToReservation(r).Conflicts(__reservation_0))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+2023-11-24 12:18:38.5875 INFO Successfully reserved room.
+2023-11-24 12:18:48.8649 ERROR This room is already taken.
+2023-11-24 14:50:05.8482 INFO Successfully reserved room.
+2023-11-24 17:05:16.7781 INFO Successfully reserved room.
