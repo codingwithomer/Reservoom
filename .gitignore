@@ -4,3 +4,21 @@
 
 /.vs/Reservoom/FileContentIndex/237f33db-38c1-4800-a2ce-7605c52b2229.vsidx
 /.vs/Reservoom/v17/.wsuo
+/.vs/Reservoom/FileContentIndex/11f59c33-d91a-4acc-b53c-61b5cdd0413a.vsidx
+/.vs/Reservoom/FileContentIndex/ed3108e2-c30c-418f-80fc-9daa30fcf9a7.vsidx
+/Reservoom/obj/Debug/net7.0-windows/Views/MakeReservationView.g.i.cs
+/Reservoom/obj/Debug/net7.0-windows/Views/ReservationListingView.g.i.cs
+/Reservoom/obj/Debug/net7.0-windows/App.g.i.cs
+/Reservoom/obj/Debug/net7.0-windows/apphost.exe
+/Reservoom/obj/Debug/net7.0-windows/GeneratedInternalTypeHelper.g.i.cs
+/Reservoom/obj/Debug/net7.0-windows/MainWindow.g.i.cs
+/Reservoom/obj/Debug/net7.0-windows/Reservoom.AssemblyInfoInputs.cache
+/Reservoom/obj/Debug/net7.0-windows/Reservoom.assets.cache
+/Reservoom/obj/Debug/net7.0-windows/Reservoom.csproj.AssemblyReference.cache
+/Reservoom/obj/Debug/net7.0-windows/Reservoom.GeneratedMSBuildEditorConfig.editorconfig
+/Reservoom/obj/Debug/net7.0-windows/Reservoom_MarkupCompile.i.cache
+*.lref
+/Reservoom/obj/Reservoom.csproj.nuget.dgspec.json
+/Reservoom/obj/Reservoom.csproj.nuget.g.props
+/Reservoom/obj/project.assets.json
+/Reservoom/obj/project.nuget.cache
