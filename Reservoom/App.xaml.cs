@@ -30,7 +30,7 @@ namespace Reservoom
             IReservationCreator reservationCreator = new DatabaseReservationCreator(_reservoomDbContextFactory);
             IReservationConflictValidator reservationConflictValidator = new DatabaseReservationConflictValidator(_reservoomDbContextFactory);
 
-            ReservationBook reservationBook = new(reservationProvider, reservationCreator, reservationConflictValidator);
+            ReservationBook reservationBook = new ReservationBook(reservationProvider, reservationCreator, reservationConflictValidator);
 
             _hotel = new Hotel("Can Suite", reservationBook);
             _hotelStore = new HotelStore(_hotel);
@@ -63,7 +63,7 @@ namespace Reservoom
 
         private ReservationListingViewModel CreateReservationListingViewModel()
         {
-            return ReservationListingViewModel.LoadViewModel(_hotelStore, CreateMakeReservationViewModel(), new NavigationService(_navigationStore, CreateMakeReservationViewModel));
+            return ReservationListingViewModel.LoadViewModel(_hotelStore, new NavigationService(_navigationStore, CreateMakeReservationViewModel));
         }
     }
 }

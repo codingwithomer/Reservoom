@@ -19,12 +19,12 @@ namespace Reservoom.Commands
             }
         }
 
-        public override bool CanExecute(object parameter)
+        public override bool CanExecute(object? parameter)
         {
             return !IsExecuting && base.CanExecute(parameter);
         }
 
-        public override async void Execute(object parameter)
+        public override async void Execute(object? parameter)
         {
             IsExecuting = true;
 
@@ -38,6 +38,6 @@ namespace Reservoom.Commands
             }
         }
 
-        public abstract Task ExecuteAsync(object parameter);
+        public abstract Task ExecuteAsync(object? parameter);
     }
 }
