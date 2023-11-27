@@ -24,3 +24,54 @@
 /Reservoom/obj/project.nuget.cache
 /.vs/Reservoom/FileContentIndex
 /.vs/Reservoom/DesignTimeBuild/.dtbcache.v2
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# DNX
+project.lock.json
+artifacts/
+/obj
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+/.vs/Reservoom/v17/*.suo
+
+# JustCode is a .NET coding add-in
+.JustCode
+/.vs/Reservoom/v17/.futdcache.v2
+
+# Visual Studio LightSwitch build output
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Microsoft Fakes
+FakesAssemblies/
