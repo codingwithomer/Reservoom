@@ -145,3 +145,4 @@ D:\Software Development\Reservoom\Reservoom\obj\Debug\net7.0-windows\refint\Rese
 D:\Software Development\Reservoom\Reservoom\obj\Debug\net7.0-windows\Reservoom.pdb
 D:\Software Development\Reservoom\Reservoom\obj\Debug\net7.0-windows\Reservoom.genruntimeconfig.cache
 D:\Software Development\Reservoom\Reservoom\obj\Debug\net7.0-windows\ref\Reservoom.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\LoadingSpinnerControl.dll
