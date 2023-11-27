@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xFfU40oFHhieebijBEdObYzaqmkSadv70Het4WyPY8YLn8EMKku8gG13W0OQmhTpfsvjGYujwntVDu8y5NN9Dw==",
+  "dgSpecHash": "n9nTI5qx9sW8SHeCjQdO0pggUPwH3I8lXUj2hbR3SWMv5rB8WDiw22pN8XwHY3LcfyNGM4A7wxfg/y0yong/7A==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\Reservoom\\Reservoom\\Reservoom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OCan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\OCan\\.nuget\\packages\\loadingspinner.wpf\\1.0.0\\loadingspinner.wpf.1.0.0.nupkg.sha512",
     "C:\\Users\\OCan\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "C:\\Users\\OCan\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\OCan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

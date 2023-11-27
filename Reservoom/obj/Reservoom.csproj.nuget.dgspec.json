@@ -46,6 +46,10 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "dependencies": {
+            "LoadingSpinner.WPF": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
