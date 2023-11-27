@@ -17,7 +17,7 @@ namespace Reservoom.Commands
             _hotelStore = hotelStore;
         }
 
-        public override async Task ExecuteAsync(object parameter)
+        public override async Task ExecuteAsync(object? parameter)
         {
             try
             {
@@ -25,7 +25,7 @@ namespace Reservoom.Commands
 
                 _reservationListingViewModel.UpdateReservations(_hotelStore.Reservations);
             }
-            catch (Exception exception)
+            catch (Exception)
             {
                 MessageBox.Show("Failed to load reservations.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }

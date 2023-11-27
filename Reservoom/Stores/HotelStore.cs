@@ -13,6 +13,8 @@ namespace Reservoom.Stores
 
         public IEnumerable<Reservation> Reservations => _reservations;
 
+        public event Action<Reservation> ReservationMade;
+
         public HotelStore(Hotel hotel)
         {
             _hotel = hotel;
@@ -32,7 +34,15 @@ namespace Reservoom.Stores
             await _hotel.MakeReservation(reservation);
 
             _reservations.Add(reservation);
+
+            OnReservationMade(reservation);
         }
+
+        private void OnReservationMade(Reservation reservation)
+        {
+            ReservationMade?.Invoke(reservation);      
+        }
+
 
         private async Task Initialize()
         {
