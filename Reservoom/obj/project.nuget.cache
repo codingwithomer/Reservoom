@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DaE6PNVpADNCaJLU5cL8usHKVT6jhXb94Ce1QlEPuSn647Cx1JmCpY6cYt/zWG2LmwctRCWwswJzivb1Y92NOg==",
+  "dgSpecHash": "EVeQ0A2Xu+IPdgB73MYa7NhfPNmxRp4Eob0a5Nuzg/rfgDtsBGgvSu4639xSvnb8SBzLbdnfRYhzUkH+AWC44A==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\Reservoom\\Reservoom\\Reservoom.csproj",
   "expectedPackageFiles": [
@@ -53,7 +53,10 @@
     "C:\\Users\\OCan\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
     "C:\\Users\\OCan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\OCan\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\OCan\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\OCan\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\OCan\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.14\\microsoft.netcore.app.runtime.win-x64.7.0.14.nupkg.sha512",
+    "C:\\Users\\OCan\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.14\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.14.nupkg.sha512",
+    "C:\\Users\\OCan\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.14\\microsoft.aspnetcore.app.runtime.win-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

@@ -146,3 +146,22 @@ D:\Software Development\Reservoom\Reservoom\obj\Debug\net7.0-windows\Reservoom.p
 D:\Software Development\Reservoom\Reservoom\obj\Debug\net7.0-windows\Reservoom.genruntimeconfig.cache
 D:\Software Development\Reservoom\Reservoom\obj\Debug\net7.0-windows\ref\Reservoom.dll
 C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\LoadingSpinnerControl.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Hosting.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Debug.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Workspace\Reservoom\Reservoom\bin\Debug\net7.0-windows\appsettings.json
